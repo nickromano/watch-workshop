@@ -1,0 +1,15 @@
+PODS:
+  - GzipSwift (4.0.4)
+  - WatchSync (1.1.0):
+    - GzipSwift
+
+DEPENDENCIES:
+  - WatchSync
+
+SPEC CHECKSUMS:
+  GzipSwift: 1a5bc5f7827e09846b0635b5079f1224bc3b1c3a
+  WatchSync: 9f1f7c00c47d087ebf688cad86b7b177bda01179
+
+PODFILE CHECKSUM: 43490b5315b8bed71c65efbde0b52c62663f0859
+
+COCOAPODS: 1.4.0

@@ -1,0 +1,1072 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B8F69A119CC110C48A6CC2D /* Pods_WorkshopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3337F4C77F477482F44A0C9 /* Pods_WorkshopTests.framework */; };
+		7471D69520A55816006FDBEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471D69420A55816006FDBEE /* AppDelegate.swift */; };
+		7471D69720A55816006FDBEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471D69620A55816006FDBEE /* ViewController.swift */; };
+		7471D69A20A55816006FDBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7471D69820A55816006FDBEE /* Main.storyboard */; };
+		7471D69C20A55817006FDBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7471D69B20A55817006FDBEE /* Assets.xcassets */; };
+		7471D69F20A55817006FDBEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7471D69D20A55817006FDBEE /* LaunchScreen.storyboard */; };
+		7471D6AA20A55817006FDBEE /* WorkshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471D6A920A55817006FDBEE /* WorkshopTests.swift */; };
+		7471D6AF20A55817006FDBEE /* Workshop WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7471D6AE20A55817006FDBEE /* Workshop WatchKit App.app */; };
+		7471D6B520A55817006FDBEE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7471D6B320A55817006FDBEE /* Interface.storyboard */; };
+		7471D6B720A55818006FDBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7471D6B620A55818006FDBEE /* Assets.xcassets */; };
+		7471D6BE20A55818006FDBEE /* Workshop WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7471D6BD20A55818006FDBEE /* Workshop WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7471D6C520A55818006FDBEE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471D6C420A55818006FDBEE /* ExtensionDelegate.swift */; };
+		7471D6C720A55818006FDBEE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471D6C620A55818006FDBEE /* NotificationController.swift */; };
+		7471D6C920A55819006FDBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7471D6C820A55819006FDBEE /* Assets.xcassets */; };
+		7471D6E320A5631D006FDBEE /* StartHikeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471D6E220A5631D006FDBEE /* StartHikeController.swift */; };
+		7471D6E520A56346006FDBEE /* HikeStatsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471D6E420A56345006FDBEE /* HikeStatsController.swift */; };
+		7471D6E720A56351006FDBEE /* HikeMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471D6E620A56351006FDBEE /* HikeMapController.swift */; };
+		7471D6E920A56816006FDBEE /* CompletedHikeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471D6E820A56816006FDBEE /* CompletedHikeMessage.swift */; };
+		7471D6EB20A56848006FDBEE /* CompletedHikeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471D6EA20A56848006FDBEE /* CompletedHikeMessage.swift */; };
+		7471D6ED20A5F95F006FDBEE /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7471D6EC20A5F95F006FDBEE /* HealthKit.framework */; };
+		7471D6F120A601F2006FDBEE /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7471D6F020A601F2006FDBEE /* HealthKit.framework */; };
+		805C33A7118018613A3F6B00 /* Pods_Workshop_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A768AAD94690AA0ADE6870 /* Pods_Workshop_WatchKit_App.framework */; };
+		82B1A91341D72F37C08DC686 /* Pods_Workshop_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A56F6C6658B6BF813EB9AD5 /* Pods_Workshop_WatchKit_Extension.framework */; };
+		82DD9D22DC6F28CE9A9A4801 /* Pods_Workshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF83B7ED927E20EE1543388 /* Pods_Workshop.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7471D6A620A55817006FDBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7471D68920A55816006FDBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7471D69020A55816006FDBEE;
+			remoteInfo = Workshop;
+		};
+		7471D6B020A55817006FDBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7471D68920A55816006FDBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7471D6AD20A55817006FDBEE;
+			remoteInfo = "Workshop WatchKit App";
+		};
+		7471D6BF20A55818006FDBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7471D68920A55816006FDBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7471D6BC20A55818006FDBEE;
+			remoteInfo = "Workshop WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7471D6D120A55819006FDBEE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7471D6BE20A55818006FDBEE /* Workshop WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7471D6D520A55819006FDBEE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7471D6AF20A55817006FDBEE /* Workshop WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2705373D72BF84FA7B30F6F4 /* Pods-WorkshopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkshopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkshopTests/Pods-WorkshopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EE7A8A1F33B4A481B07845E /* Pods-WorkshopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkshopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkshopTests/Pods-WorkshopTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A56F6C6658B6BF813EB9AD5 /* Pods_Workshop_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Workshop_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF83B7ED927E20EE1543388 /* Pods_Workshop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Workshop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1B0221F7614C53F7379B33 /* Pods-Workshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workshop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Workshop/Pods-Workshop.release.xcconfig"; sourceTree = "<group>"; };
+		61EF091EB0BDA5698FD517F4 /* Pods-Workshop WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workshop WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Workshop WatchKit Extension/Pods-Workshop WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		731997DFE777345ED4E1A73D /* Pods-Workshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workshop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Workshop/Pods-Workshop.debug.xcconfig"; sourceTree = "<group>"; };
+		7471D69120A55816006FDBEE /* Workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7471D69420A55816006FDBEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7471D69620A55816006FDBEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7471D69920A55816006FDBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7471D69B20A55817006FDBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7471D69E20A55817006FDBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7471D6A020A55817006FDBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7471D6A520A55817006FDBEE /* WorkshopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkshopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7471D6A920A55817006FDBEE /* WorkshopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkshopTests.swift; sourceTree = "<group>"; };
+		7471D6AB20A55817006FDBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7471D6AE20A55817006FDBEE /* Workshop WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workshop WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7471D6B420A55817006FDBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7471D6B620A55818006FDBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7471D6B820A55818006FDBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7471D6BD20A55818006FDBEE /* Workshop WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Workshop WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7471D6C420A55818006FDBEE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		7471D6C620A55818006FDBEE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		7471D6C820A55819006FDBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7471D6CA20A55819006FDBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7471D6CB20A55819006FDBEE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7471D6E220A5631D006FDBEE /* StartHikeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartHikeController.swift; sourceTree = "<group>"; };
+		7471D6E420A56345006FDBEE /* HikeStatsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeStatsController.swift; sourceTree = "<group>"; };
+		7471D6E620A56351006FDBEE /* HikeMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeMapController.swift; sourceTree = "<group>"; };
+		7471D6E820A56816006FDBEE /* CompletedHikeMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedHikeMessage.swift; sourceTree = "<group>"; };
+		7471D6EA20A56848006FDBEE /* CompletedHikeMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompletedHikeMessage.swift; path = Workshop/Messages/CompletedHikeMessage.swift; sourceTree = SOURCE_ROOT; };
+		7471D6EC20A5F95F006FDBEE /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.3.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		7471D6EE20A60176006FDBEE /* Workshop WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Workshop WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		7471D6EF20A601F2006FDBEE /* Workshop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Workshop.entitlements; sourceTree = "<group>"; };
+		7471D6F020A601F2006FDBEE /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		A5A768AAD94690AA0ADE6870 /* Pods_Workshop_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Workshop_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54B997383A0981C6D551F20 /* Pods-Workshop WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workshop WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Workshop WatchKit App/Pods-Workshop WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		C0F1A0D945594ED1ED285957 /* Pods-Workshop WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workshop WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Workshop WatchKit App/Pods-Workshop WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		C3337F4C77F477482F44A0C9 /* Pods_WorkshopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkshopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61E4157090A9D7FEA76D304 /* Pods-Workshop WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workshop WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Workshop WatchKit Extension/Pods-Workshop WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B28792A43AE0EB9BB2B79E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805C33A7118018613A3F6B00 /* Pods_Workshop_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7471D68E20A55816006FDBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DD9D22DC6F28CE9A9A4801 /* Pods_Workshop.framework in Frameworks */,
+				7471D6F120A601F2006FDBEE /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7471D6A220A55817006FDBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8F69A119CC110C48A6CC2D /* Pods_WorkshopTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7471D6BA20A55818006FDBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7471D6ED20A5F95F006FDBEE /* HealthKit.framework in Frameworks */,
+				82B1A91341D72F37C08DC686 /* Pods_Workshop_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62CA237EEB1035F0BDBD2E4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7471D6F020A601F2006FDBEE /* HealthKit.framework */,
+				7471D6EC20A5F95F006FDBEE /* HealthKit.framework */,
+				3EF83B7ED927E20EE1543388 /* Pods_Workshop.framework */,
+				A5A768AAD94690AA0ADE6870 /* Pods_Workshop_WatchKit_App.framework */,
+				3A56F6C6658B6BF813EB9AD5 /* Pods_Workshop_WatchKit_Extension.framework */,
+				C3337F4C77F477482F44A0C9 /* Pods_WorkshopTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7471D68820A55816006FDBEE = {
+			isa = PBXGroup;
+			children = (
+				7471D69320A55816006FDBEE /* Workshop */,
+				7471D6A820A55817006FDBEE /* WorkshopTests */,
+				7471D6B220A55817006FDBEE /* Workshop WatchKit App */,
+				7471D6C120A55818006FDBEE /* Workshop WatchKit Extension */,
+				7471D69220A55816006FDBEE /* Products */,
+				91B3DC6F73ABBC063872B207 /* Pods */,
+				62CA237EEB1035F0BDBD2E4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7471D69220A55816006FDBEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7471D69120A55816006FDBEE /* Workshop.app */,
+				7471D6A520A55817006FDBEE /* WorkshopTests.xctest */,
+				7471D6AE20A55817006FDBEE /* Workshop WatchKit App.app */,
+				7471D6BD20A55818006FDBEE /* Workshop WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7471D69320A55816006FDBEE /* Workshop */ = {
+			isa = PBXGroup;
+			children = (
+				7471D6EF20A601F2006FDBEE /* Workshop.entitlements */,
+				7471D6DC20A558C1006FDBEE /* Messages */,
+				7471D69420A55816006FDBEE /* AppDelegate.swift */,
+				7471D69620A55816006FDBEE /* ViewController.swift */,
+				7471D69820A55816006FDBEE /* Main.storyboard */,
+				7471D69B20A55817006FDBEE /* Assets.xcassets */,
+				7471D69D20A55817006FDBEE /* LaunchScreen.storyboard */,
+				7471D6A020A55817006FDBEE /* Info.plist */,
+			);
+			path = Workshop;
+			sourceTree = "<group>";
+		};
+		7471D6A820A55817006FDBEE /* WorkshopTests */ = {
+			isa = PBXGroup;
+			children = (
+				7471D6A920A55817006FDBEE /* WorkshopTests.swift */,
+				7471D6AB20A55817006FDBEE /* Info.plist */,
+			);
+			path = WorkshopTests;
+			sourceTree = "<group>";
+		};
+		7471D6B220A55817006FDBEE /* Workshop WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7471D6B320A55817006FDBEE /* Interface.storyboard */,
+				7471D6B620A55818006FDBEE /* Assets.xcassets */,
+				7471D6B820A55818006FDBEE /* Info.plist */,
+			);
+			path = "Workshop WatchKit App";
+			sourceTree = "<group>";
+		};
+		7471D6C120A55818006FDBEE /* Workshop WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7471D6EE20A60176006FDBEE /* Workshop WatchKit Extension.entitlements */,
+				7471D6C820A55819006FDBEE /* Assets.xcassets */,
+				7471D6C420A55818006FDBEE /* ExtensionDelegate.swift */,
+				7471D6E620A56351006FDBEE /* HikeMapController.swift */,
+				7471D6E420A56345006FDBEE /* HikeStatsController.swift */,
+				7471D6CA20A55819006FDBEE /* Info.plist */,
+				7471D6C620A55818006FDBEE /* NotificationController.swift */,
+				7471D6CB20A55819006FDBEE /* PushNotificationPayload.apns */,
+				7471D6DF20A558F0006FDBEE /* Shared */,
+				7471D6E220A5631D006FDBEE /* StartHikeController.swift */,
+			);
+			path = "Workshop WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7471D6DC20A558C1006FDBEE /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				7471D6E820A56816006FDBEE /* CompletedHikeMessage.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		7471D6DF20A558F0006FDBEE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7471D6EA20A56848006FDBEE /* CompletedHikeMessage.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		91B3DC6F73ABBC063872B207 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				731997DFE777345ED4E1A73D /* Pods-Workshop.debug.xcconfig */,
+				5B1B0221F7614C53F7379B33 /* Pods-Workshop.release.xcconfig */,
+				B54B997383A0981C6D551F20 /* Pods-Workshop WatchKit App.debug.xcconfig */,
+				C0F1A0D945594ED1ED285957 /* Pods-Workshop WatchKit App.release.xcconfig */,
+				C61E4157090A9D7FEA76D304 /* Pods-Workshop WatchKit Extension.debug.xcconfig */,
+				61EF091EB0BDA5698FD517F4 /* Pods-Workshop WatchKit Extension.release.xcconfig */,
+				2705373D72BF84FA7B30F6F4 /* Pods-WorkshopTests.debug.xcconfig */,
+				2EE7A8A1F33B4A481B07845E /* Pods-WorkshopTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7471D69020A55816006FDBEE /* Workshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7471D6D620A55819006FDBEE /* Build configuration list for PBXNativeTarget "Workshop" */;
+			buildPhases = (
+				E80702E47899ABE88B015E96 /* [CP] Check Pods Manifest.lock */,
+				7471D68D20A55816006FDBEE /* Sources */,
+				7471D68E20A55816006FDBEE /* Frameworks */,
+				7471D68F20A55816006FDBEE /* Resources */,
+				7471D6D520A55819006FDBEE /* Embed Watch Content */,
+				CA23BFE2BCD52AA4DDE0CB43 /* [CP] Embed Pods Frameworks */,
+				C214FF05E97231CDEF68023C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7471D6B120A55817006FDBEE /* PBXTargetDependency */,
+			);
+			name = Workshop;
+			productName = Workshop;
+			productReference = 7471D69120A55816006FDBEE /* Workshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7471D6A420A55817006FDBEE /* WorkshopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7471D6D920A55819006FDBEE /* Build configuration list for PBXNativeTarget "WorkshopTests" */;
+			buildPhases = (
+				DF441A6323B2467D9332EF6C /* [CP] Check Pods Manifest.lock */,
+				7471D6A120A55817006FDBEE /* Sources */,
+				7471D6A220A55817006FDBEE /* Frameworks */,
+				7471D6A320A55817006FDBEE /* Resources */,
+				EBCF39DE430B59321FB5BA4E /* [CP] Embed Pods Frameworks */,
+				11C0490FA15A208A502AE88B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7471D6A720A55817006FDBEE /* PBXTargetDependency */,
+			);
+			name = WorkshopTests;
+			productName = WorkshopTests;
+			productReference = 7471D6A520A55817006FDBEE /* WorkshopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7471D6AD20A55817006FDBEE /* Workshop WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7471D6D220A55819006FDBEE /* Build configuration list for PBXNativeTarget "Workshop WatchKit App" */;
+			buildPhases = (
+				87C8BA7DCFB939F2CE961FFA /* [CP] Check Pods Manifest.lock */,
+				7471D6AC20A55817006FDBEE /* Resources */,
+				7471D6D120A55819006FDBEE /* Embed App Extensions */,
+				0B28792A43AE0EB9BB2B79E7 /* Frameworks */,
+				9F7F659BCC64062FE88B8EB2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7471D6C020A55818006FDBEE /* PBXTargetDependency */,
+			);
+			name = "Workshop WatchKit App";
+			productName = "Workshop WatchKit App";
+			productReference = 7471D6AE20A55817006FDBEE /* Workshop WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7471D6BC20A55818006FDBEE /* Workshop WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7471D6CE20A55819006FDBEE /* Build configuration list for PBXNativeTarget "Workshop WatchKit Extension" */;
+			buildPhases = (
+				B3F8ED662E425A31D6D706F2 /* [CP] Check Pods Manifest.lock */,
+				7471D6B920A55818006FDBEE /* Sources */,
+				7471D6BA20A55818006FDBEE /* Frameworks */,
+				7471D6BB20A55818006FDBEE /* Resources */,
+				D4B32F3E3DDF3B9BC2A56FA0 /* [CP] Embed Pods Frameworks */,
+				9D6AB9C485C6AAF4563499C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Workshop WatchKit Extension";
+			productName = "Workshop WatchKit Extension";
+			productReference = 7471D6BD20A55818006FDBEE /* Workshop WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7471D68920A55816006FDBEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = MobileDataLabs;
+				TargetAttributes = {
+					7471D69020A55816006FDBEE = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					7471D6A420A55817006FDBEE = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 7471D69020A55816006FDBEE;
+					};
+					7471D6AD20A55817006FDBEE = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					7471D6BC20A55818006FDBEE = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.HealthKit.watchos = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7471D68C20A55816006FDBEE /* Build configuration list for PBXProject "Workshop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7471D68820A55816006FDBEE;
+			productRefGroup = 7471D69220A55816006FDBEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7471D69020A55816006FDBEE /* Workshop */,
+				7471D6A420A55817006FDBEE /* WorkshopTests */,
+				7471D6AD20A55817006FDBEE /* Workshop WatchKit App */,
+				7471D6BC20A55818006FDBEE /* Workshop WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7471D68F20A55816006FDBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7471D69F20A55817006FDBEE /* LaunchScreen.storyboard in Resources */,
+				7471D69C20A55817006FDBEE /* Assets.xcassets in Resources */,
+				7471D69A20A55816006FDBEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7471D6A320A55817006FDBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7471D6AC20A55817006FDBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7471D6B720A55818006FDBEE /* Assets.xcassets in Resources */,
+				7471D6B520A55817006FDBEE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7471D6BB20A55818006FDBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7471D6C920A55819006FDBEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11C0490FA15A208A502AE88B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkshopTests/Pods-WorkshopTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87C8BA7DCFB939F2CE961FFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Workshop WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D6AB9C485C6AAF4563499C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Workshop WatchKit Extension/Pods-Workshop WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7F659BCC64062FE88B8EB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Workshop WatchKit App/Pods-Workshop WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3F8ED662E425A31D6D706F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Workshop WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C214FF05E97231CDEF68023C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Workshop/Pods-Workshop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA23BFE2BCD52AA4DDE0CB43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Workshop/Pods-Workshop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GzipSwift-iOS/Gzip.framework",
+				"${BUILT_PRODUCTS_DIR}/WatchSync-iOS/WatchSync.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gzip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WatchSync.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Workshop/Pods-Workshop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4B32F3E3DDF3B9BC2A56FA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Workshop WatchKit Extension/Pods-Workshop WatchKit Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GzipSwift-watchOS/Gzip.framework",
+				"${BUILT_PRODUCTS_DIR}/WatchSync-watchOS/WatchSync.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gzip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WatchSync.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Workshop WatchKit Extension/Pods-Workshop WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF441A6323B2467D9332EF6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkshopTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E80702E47899ABE88B015E96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Workshop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBCF39DE430B59321FB5BA4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkshopTests/Pods-WorkshopTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7471D68D20A55816006FDBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7471D69720A55816006FDBEE /* ViewController.swift in Sources */,
+				7471D69520A55816006FDBEE /* AppDelegate.swift in Sources */,
+				7471D6E920A56816006FDBEE /* CompletedHikeMessage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7471D6A120A55817006FDBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7471D6AA20A55817006FDBEE /* WorkshopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7471D6B920A55818006FDBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7471D6C720A55818006FDBEE /* NotificationController.swift in Sources */,
+				7471D6E320A5631D006FDBEE /* StartHikeController.swift in Sources */,
+				7471D6EB20A56848006FDBEE /* CompletedHikeMessage.swift in Sources */,
+				7471D6C520A55818006FDBEE /* ExtensionDelegate.swift in Sources */,
+				7471D6E720A56351006FDBEE /* HikeMapController.swift in Sources */,
+				7471D6E520A56346006FDBEE /* HikeStatsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7471D6A720A55817006FDBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7471D69020A55816006FDBEE /* Workshop */;
+			targetProxy = 7471D6A620A55817006FDBEE /* PBXContainerItemProxy */;
+		};
+		7471D6B120A55817006FDBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7471D6AD20A55817006FDBEE /* Workshop WatchKit App */;
+			targetProxy = 7471D6B020A55817006FDBEE /* PBXContainerItemProxy */;
+		};
+		7471D6C020A55818006FDBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7471D6BC20A55818006FDBEE /* Workshop WatchKit Extension */;
+			targetProxy = 7471D6BF20A55818006FDBEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7471D69820A55816006FDBEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7471D69920A55816006FDBEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7471D69D20A55817006FDBEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7471D69E20A55817006FDBEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7471D6B320A55817006FDBEE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7471D6B420A55817006FDBEE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7471D6CC20A55819006FDBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7471D6CD20A55819006FDBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7471D6CF20A55819006FDBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C61E4157090A9D7FEA76D304 /* Pods-Workshop WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Workshop WatchKit Extension/Workshop WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYW23B32LS;
+				INFOPLIST_FILE = "Workshop WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.workshop.Workshop.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		7471D6D020A55819006FDBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61EF091EB0BDA5698FD517F4 /* Pods-Workshop WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Workshop WatchKit Extension/Workshop WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYW23B32LS;
+				INFOPLIST_FILE = "Workshop WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.workshop.Workshop.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		7471D6D320A55819006FDBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54B997383A0981C6D551F20 /* Pods-Workshop WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYW23B32LS;
+				IBSC_MODULE = Workshop_WatchKit_Extension;
+				INFOPLIST_FILE = "Workshop WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.workshop.Workshop.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		7471D6D420A55819006FDBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F1A0D945594ED1ED285957 /* Pods-Workshop WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYW23B32LS;
+				IBSC_MODULE = Workshop_WatchKit_Extension;
+				INFOPLIST_FILE = "Workshop WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.workshop.Workshop.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		7471D6D720A55819006FDBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731997DFE777345ED4E1A73D /* Pods-Workshop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Workshop/Workshop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYW23B32LS;
+				INFOPLIST_FILE = Workshop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.workshop.Workshop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7471D6D820A55819006FDBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1B0221F7614C53F7379B33 /* Pods-Workshop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Workshop/Workshop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYW23B32LS;
+				INFOPLIST_FILE = Workshop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.workshop.Workshop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7471D6DA20A55819006FDBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2705373D72BF84FA7B30F6F4 /* Pods-WorkshopTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYW23B32LS;
+				INFOPLIST_FILE = WorkshopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.workshop.WorkshopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workshop.app/Workshop";
+			};
+			name = Debug;
+		};
+		7471D6DB20A55819006FDBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE7A8A1F33B4A481B07845E /* Pods-WorkshopTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYW23B32LS;
+				INFOPLIST_FILE = WorkshopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.workshop.WorkshopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workshop.app/Workshop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7471D68C20A55816006FDBEE /* Build configuration list for PBXProject "Workshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7471D6CC20A55819006FDBEE /* Debug */,
+				7471D6CD20A55819006FDBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7471D6CE20A55819006FDBEE /* Build configuration list for PBXNativeTarget "Workshop WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7471D6CF20A55819006FDBEE /* Debug */,
+				7471D6D020A55819006FDBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7471D6D220A55819006FDBEE /* Build configuration list for PBXNativeTarget "Workshop WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7471D6D320A55819006FDBEE /* Debug */,
+				7471D6D420A55819006FDBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7471D6D620A55819006FDBEE /* Build configuration list for PBXNativeTarget "Workshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7471D6D720A55819006FDBEE /* Debug */,
+				7471D6D820A55819006FDBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7471D6D920A55819006FDBEE /* Build configuration list for PBXNativeTarget "WorkshopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7471D6DA20A55819006FDBEE /* Debug */,
+				7471D6DB20A55819006FDBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7471D68920A55816006FDBEE /* Project object */;
+}
